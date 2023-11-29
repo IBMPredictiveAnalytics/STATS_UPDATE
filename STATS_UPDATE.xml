@@ -1,0 +1,9 @@
+<Command xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www-01.ibm.com/software/analytics/spss/xml/extension-1.0.xsd" Name="STATS UPDATE" Language="Python" LanguageVersion="3">
+	<Subcommand Name="" IsArbitrary="False" Occurrence="Optional">
+		<Parameter Name="UPDATESOURCE" ParameterType="QuotedString"/>
+		<Parameter Name="SOURCEIND" ParameterType="VariableName"/>
+	`	<Parameter Name="IDVARS" ParameterType="VariableNameList"/>
+		<Parameter Name="MAP" ParameterType="Keyword"/>
+	</Subcommand>
+	<Subcommand Name="HELP" Occurrence="Optional"/>
+</Command>
