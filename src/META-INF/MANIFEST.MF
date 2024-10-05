@@ -1,4 +1,5 @@
 Name: STATS_UPDATE
+Display-Name: Update
 Dialog-Specs: update.cfe
 Command-Specs: STATS_UPDATE.xml
 Code-Files: STATS_UPDATE.py
